@@ -1,6 +1,6 @@
 # ML Metrics Reference
 
-Definitions for every metric in the Tensa scoreboard, plus the ones you'll meet at a co-op.
+Definitions for every metric in the Tensa scoreboard, plus other common ones used in industry.
 ★ = used in Tensa V1.
 
 Notation: TP = true positives, FP = false positives, TN = true negatives, FN = false negatives. *y* = true value, *ŷ* = prediction, *n* = number of examples.
@@ -43,7 +43,7 @@ Notation: TP = true positives, FP = false positives, TN = true negatives, FN = f
 ---
 
 ## 3. Retrieval and ranking
-*Ask — BM25, dense, hybrid, reranker. Also Shopify search and recommendations.*
+*Ask — BM25, dense, hybrid, reranker. Also e-commerce search and recommendations.*
 
 | Metric | Definition | Read it as |
 |---|---|---|
@@ -109,7 +109,7 @@ Notation: TP = true positives, FP = false positives, TN = true negatives, FN = f
 ---
 
 ## 7. Online and business metrics
-*Not in Tensa (no users, no logging) — but standard at Shopify*
+*Not in Tensa (no users, no logging) — but standard in production ML at product companies*
 
 | Metric | Definition | Read it as |
 |---|---|---|
