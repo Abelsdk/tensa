@@ -1,0 +1,4 @@
+# Stage 1 (NumPy). PyTorch etc. get added when we reach them.
+numpy>=2.1
+matplotlib>=3.9
+pytest>=8.0

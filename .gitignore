@@ -1,0 +1,29 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data and artifacts (download scripts live in data/, data does not)
+data/*
+!data/README.md
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.safetensors
+runs/
+wandb/
+mlruns/
+
+# Secrets
+.env
+.env.*
